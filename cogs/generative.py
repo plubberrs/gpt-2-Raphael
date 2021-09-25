@@ -1,5 +1,5 @@
 import sys
-sys.path.append("../src")
+sys.path.append("/content/gpt2-Raphael/src")
 
 import fire
 import json
