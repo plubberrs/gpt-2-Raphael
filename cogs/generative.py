@@ -137,7 +137,7 @@ class Conversation:
   def __init__(self, prior = None):
     if prior is None:
       with open('prompt.txt') as f:
-      prior=f.read()
+        prior=f.read()
     self.suggestion = None
     
     self.me = Me()
