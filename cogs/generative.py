@@ -271,4 +271,4 @@ class Generative(commands.Cog):
         await ctx.send(reply[9:-1])
     
 def setup(client):
-    client.add_cog(Generative(client, chat_log))
+    client.add_cog(Generative(client, convo))
